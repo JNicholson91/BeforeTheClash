@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #a98392;
+    background-color: #266DD3;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -21,6 +21,10 @@ h4 {
     font-family: 'Quicksand', sans-serif;
 }
 
+small{
+    font-size: 12pt;
+    }
+
 .date {
     color: #828282;
 }
@@ -36,12 +40,18 @@ h4 {
 
 .top-menu,
 .top-menu:hover,
-.top-menu:visited {
+.top-menu:visited,
+.top-menu a{
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 10pt;
     margin-right: 20px;
 }
+
+.top-menu span {
+    font-size: 12pt;
+}
+
 
 .post {
     margin-bottom: 70px;
